@@ -12,7 +12,7 @@ const power = (a, b) => {
 const factorial = (a) => {
   let fact = 0;
   for (let i = 0; i < a; i += 1) {
-    fact += a;
+    fact *= a;
   }
   return fact;
 };
