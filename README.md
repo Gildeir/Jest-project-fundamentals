@@ -90,6 +90,7 @@ Lembre-se também de **não modificar** os describes dos tests na pasta `test`. 
   * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
     * Exemplo: `git checkout -b joaozinho-project-jest`
+  * Rode o comando `npm install`
 
 3. Quando fizer mudanças, adicione-as ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
