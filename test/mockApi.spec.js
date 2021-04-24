@@ -25,13 +25,13 @@ ATENÇÃO!!! Edite apenas este arquivo. Não altere os arquivos da pasta 'src'.
 describe('verifica o usuário', () => {
   // Crie sua mock da função fetchURL() aqui
   const antonioBrittoUser = {
-    gender: 'Masculino',
+    gender: 'male',
     name: {
       first: 'Antônio',
       last: 'Britto',
     },
     location: {
-      country: 'Brasil',
+      country: 'Brazil',
     },
     email: 'tunico@bol.com.br',
     login: {
