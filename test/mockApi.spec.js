@@ -36,11 +36,11 @@ describe('verifica o usuário', () => {
     email: 'tunico@bol.com.br',
     login: {
       username: 'tunicao123',
-      password: 1234567890,
+      password: '1234567890',
     },
   };
 
-  api.fetchURL = jest.fn().mockImplementation.mockResolvedValue(antonioBrittoUser);
+  api.fetchURL = jest.fn().mockResolvedValue(antonioBrittoUser);
 
   test('verifica se o usuário é o tunico', async () => (
     api.fetchURL().then((user) => {
